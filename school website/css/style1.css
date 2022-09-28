@@ -1,0 +1,86 @@
+.content{
+    height: 300px;
+    width: 100%;
+    background-color: burlywood;
+    margin-top: 25px;
+}
+.playgroup{
+    height: 280px;
+    width: 22%;
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: crimson;
+    background-color: darkgoldenrod;
+    margin-top: 10px;
+    margin-left: 1%;
+    position: relative;
+}
+.nursery{
+    height: 280px;
+    width: 22%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: crimson;
+    background-color: darkgoldenrod;
+    margin-top: 10px;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+}
+.KG-1{
+    height: 280px;
+    width: 22%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: crimson;
+    background-color: darkgoldenrod;
+    margin-top: 10px;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+}
+.KG-2{
+    height: 280px;
+    width: 22%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: crimson;
+    background-color: darkgoldenrod;
+    margin-top: 10px;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+}
+.contentphoto{
+    height: 280px;
+    width: auto;
+    
+}
+#contenttext{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: cadetblue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+footer a{
+    color: brown;
+    font-size: 14pt;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin-top: 30px;
+    float: left;
+}

@@ -1,0 +1,50 @@
+
+input[type=text]
+{
+    padding: 12px 20px;
+    margin: 8px;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    width: 80%;
+    border-radius: 5px;
+    
+}
+label{
+    color: blue;
+    font-size: 12pt;
+    text-decoration-line: underline;
+}
+select{
+    width: 25%;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    padding: 8px 12px;
+    margin: 8px;
+}
+textarea{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    resize: none;
+    border-radius: 5px;
+}
+input[type=email]
+{
+    padding: 12px 20px;
+    margin: 8px;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    width: 80%;
+    border-radius: 5px;
+}
+input[type=password]
+{
+    padding: 12px 20px;
+    margin: 8px;
+    border: 2px solid;
+    border-color: cornflowerblue;
+    width: 80%;
+    border-radius: 5px;
+}

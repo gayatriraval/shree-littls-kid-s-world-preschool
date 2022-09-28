@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admission</title>
+
+    <link rel="stylesheet" href="D:\web development\homework\school website\css\admission.css"/>
+
+</head>
+<body>
+        <form name="admission form" method="POST">
+                <label>First Name :</label><br>
+                <input type="text" name="First Name" required placeholder="your name"><br>
+                <label>Last Name :</label><br>
+                <input type="text" name="Last Name" required placeholder="your last name"><br>
+
+                <!--<label>COUNTRY :</label>
+                    <select name="country">
+                    <option value="0">SELECT COUNTRY</option>
+                    <option value="1">INDIA</option>
+                    <option value="2">USA</option>
+                    <option value="3">CANADA</option>
+                    <option value="4">AUSTRALIA</option>
+                    <option value="5">CHINA</option>
+                    <option value="6">RUSIA</option>
+                </select><br>-->
+
+                
+                <label>STATE :</label>
+                <select name="state">
+                        <option value="0">SELECT STATE</option>
+                        <option value="1">GUJARAT</option>
+                        <option value="2">M.P.</option>
+                        <option value="3">U.P.</option>
+                        <option value="4">RAJASTHAN</option>
+                        <option value="5">MAHARASHTRA</option>
+                        <option value="6">DELHI</option>
+                </select><br>
+                
+                
+                <label>ADDRESS : </label><br>
+                <textarea placeholder="aaaa" name="address" required> </textarea><br>
+
+                <label>EMAIL-ID : </label><br>
+                <input type="email" name="email" required placeholder="abc@gmail.com"><br>
+                <label>PASSWORD : </label><br>
+                <input type="password" name="password" required><br>
+
+
+                <label>GENDER : </label>
+                <input type="radio" name="GENDER" value="male"><label>MALE</label>
+                <input type="radio" name="GENDER" value="female"><label>FEMALE</label><br><br>
+
+                <label>HOBBY : </label>
+                <input type="checkbox" name="HOBBY" value="0">
+                    <label> READING</label>
+                <input type="checkbox" name="HOBBY" value="1">
+                    <label> TRAVELLING</label>
+                <input type="checkbox" name="HOBBY" value="2">
+                    <label> LISTENING SONG</label>
+                <input type="checkbox" name="HOBBY" value="3">
+                    <label> WATCHING MOVIE</label>
+                <input type="checkbox" name="HOBBY" value="4">
+                    <label> DANCING</label>
+                <input type="checkbox" name="HOBBY" value="5">
+                    <label> SINGING</label><br><br>
+
+                <label> DATE OF BIRTH :</label>
+                <input type="date" name="date" value="dob" required><br><br>
+
+                <label> PHOTO :</label>
+                <input type="file" name="FILE" value="RPHOTO" required><br><br>
+
+                <input type="submit">
+                <input type="reset">
+        </form>
+</body>
+</html>

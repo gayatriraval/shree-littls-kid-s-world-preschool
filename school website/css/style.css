@@ -1,0 +1,151 @@
+header{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(235, 233, 205); 
+    position: relative;
+}
+header h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    color: crimson;
+    text-align: center;
+    text-decoration-line: underline;
+    padding-top: 5px;
+}
+
+header input{
+    position: absolute;
+    right: 160px;
+    top: 7px;
+}
+
+.socialicon1{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    right: 40px;
+}
+.socialicon2{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    right: 80px;
+}
+.socialicon3{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 7px;
+    right: 120px;
+}
+header a{
+    float: right;
+}
+
+.scl-name{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: crimson;
+    text-align: center
+}
+.scl-name a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.scl-name a:hover{
+    color: yellow;
+}
+
+nav img{
+    width: 150px;
+    height: 120px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: groove;
+    border-color: blue;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+}
+nav{
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+   
+}
+nav a{
+    display: block;
+    text-align: center;
+    float: left;
+    padding: 14px 20px;
+    color: brown;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+}
+nav a.home{
+    margin-left: 200px;
+}
+
+img{
+    max-width: 70%;
+    
+}
+
+.content img{
+    max-width: 100%;
+}
+
+#name{
+    color: brown;
+    text-decoration-line: underline;
+}
+
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+      
+    width: 90%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+    
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 80px;
+    color: white;
+  }
+  .carousel-cell a img{
+    margin-left: 15%;
+  }
+
+
+
+
+
+
+
+
+  
+  @media screen and (max-width:700px){
+      nav{
+          flex-direction: column;
+      }
+  }
+  
+  

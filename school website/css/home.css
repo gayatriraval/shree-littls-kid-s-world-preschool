@@ -1,0 +1,25 @@
+.banner-image{
+    height: 300px;
+}
+
+.bannerphoto{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    border: 5px;
+    border-style: groove;
+    border-color: blue;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    width: 40%;
+}
+.banner-image h2{
+    color: brown;
+    text-decoration-line: underline;
+}
+.banner-image p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13pt;
+}
